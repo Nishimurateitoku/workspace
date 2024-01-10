@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+img.logo {
+    width: 300px;
+    height: auto;
+    margin: 0px 0px 0px 10px;
+}
+.menu {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    margin-top: -4px;
+}
+a:link { color: #ffffff; }
+a:visited { color: #ffaaaa; }
+a:hover { color: #ff3300; }
+a:active { color: #ff0000; }
+.menu a {
+    margin: 20px;
+    text-decoration: none;
+}
+footer {
+    margin-top: 30px;
+    clear: both;
+    width: 100%;
+    height: 60px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+    font-family: 游ゴシック;
+    font-size: 18px;
+}
+main {
+    margin: 0 auto;
+    padding: 0 30%;
+}
+div {
+    clear: both;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
+label, p {
+    float: left;
+    width: 180px;
+    
+}
+label.gender {
+    width: 100px;
+    border: none;
+}
+input, select, {
+    float: left;
+}
+.gender {
+    float: left;
+    width: 50px;
+    
+}
+.sub {
+    height: 60px;
+    width: 120px;
+    clear: both;
+    text-align: center;
+    margin-left: 25%;
+} 
+.required, select {
+    border: solid 3px #000000;
+}
+.seibetu {
+    margin-bottom: 52px;
+}
+#man, #woman {
+    float: left;
+    margin: 2px 2px 2px 2px;
+}
+p {
+    margin-top: 16px;
+    float: left;
+    width: 180px;
+}
+span {
+    float: left;
+    margin: 16px;
+}
+input.back, input.go{
+    height: 45px;
+    width: 80px;
+    text-align: center;
+    margin: 30px;
+}
+form {
+    width: auto;
+    float: left;
+}
+label span.error {
+    margin: 0;
+    width: 250px;
+}
+.error {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 180px;
+    padding: 0;
+    display: inline-block;
+    font: size: 90%;
+    color: red;
+    box-sizing: border-box;
+}
+input[type="checkbox"]:not(input[type="checkbox"]:first-of-type),
+input[type="radio"]:not(input[type="radio"]:first-of-type){
+    margin-left: 10px;
+    margin-top: 0;
+}
+
